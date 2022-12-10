@@ -1,7 +1,8 @@
 # Pressure-sensor-using-strain-gauge
 스트레인게이지를 이용한 압력센서🦾
 
-'''
+```
+
 #include <SPI.h>
 #include <Wire.h>
 #include <LiquidCrystal_I2C.h>
@@ -61,4 +62,4 @@ unsigned short MCP_read(byte CHH, byte CHL) {
 	return ((H & 0x0F) << 8) | L; //SPI트랜스퍼 / 바이트 단위 8개씩 통신 / H,L 바이트 단위 / 한바이트 만큼 밀어서 합치기 데이터
 }
 
-'''
+```
