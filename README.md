@@ -2,7 +2,6 @@
 스트레인게이지를 이용한 압력센서🦾
 
 '''
-
 #include <SPI.h>
 #include <Wire.h>
 #include <LiquidCrystal_I2C.h>
